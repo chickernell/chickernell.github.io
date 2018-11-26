@@ -969,7 +969,7 @@ ul.social-links li:last-child a {
 .table-v-align,
 .table > div {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 .home-page-block {
