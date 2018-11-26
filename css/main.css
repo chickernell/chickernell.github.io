@@ -984,6 +984,8 @@ ul.social-links li:last-child a {
   text-align: center;
   font-size: 70px;
   margin: 0;
+  background-color: white;
+  opacity: 0.75;
 }
 
 .home-page-description {
