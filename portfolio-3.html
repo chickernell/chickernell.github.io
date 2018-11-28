@@ -40,53 +40,7 @@
 
                 <p class="text-justify">Northwestern desires to foster knowledge about engineering to young students in the nearby elementary and high schools. From a 4th graders' drawing, our team designed and manufactured an ice cream cone toy through injection molding. </p>
                 </div>
-                </div>
-
-                <!--
-                <div class="portfolio-page-image">
-                    <img src="images/portfolio/1.jpg" alt="">
-                </div>
-                -->
-
-                <script type="text/javascript">
-                    function customAjaxScroll() {
-                        var windowWidth = $(window).width();
-                        if (windowWidth > 991) {
-                            // Custom Ajax Page Scroll
-                            $("#ajax-page").mCustomScrollbar({
-                                scrollInertia: 8,
-                                documentTouchScroll: false
-                            });
-                        } else {
-                            $("#ajax-page").mCustomScrollbar('destroy');
-                        }
-                    }
-
-                    jQuery(document).ready(function($){
-
-                        // Ajax Loaded Page Scroll
-                        customAjaxScroll();
-
-
-                        $('.portfolio-page-carousel').owlCarousel({
-                            smartSpeed:1200,
-                            items: 1,
-                            loop: true,
-                            dots: true,
-                            nav: true,
-                            navText: false,
-                            margin: 10
-                        });
-
-                    });
-
-                    jQuery(window).on('resize', function() {
-                        customAjaxScroll();
-                    });
-                </script>
-            </div>
-            <!-- /Project Description -->
-            <div class="col-sm-12 col-md-12 ">
+                <!-- /Project Description -->
                 <!-- Skills -->
                 <div class="project-general-info">
                     <div class="block-title">
@@ -100,9 +54,8 @@
                         </ul>
                     </p>
                 </div>
-                <!-- /Technology -->
-
-                 <!-- Defining the Problem -->
+                <!-- /Skills -->
+                <!-- Defining the Problem -->
                 <div class="row">
                   <div class="project-general-info">
                     <div class="block-title">
@@ -161,6 +114,50 @@
                         </ul>
                 </div>
                 <!-- /Injection Molding -->
+                </div>
+
+                <!--
+                <div class="portfolio-page-image">
+                    <img src="images/portfolio/1.jpg" alt="">
+                </div>
+                -->
+
+                <script type="text/javascript">
+                    function customAjaxScroll() {
+                        var windowWidth = $(window).width();
+                        if (windowWidth > 991) {
+                            // Custom Ajax Page Scroll
+                            $("#ajax-page").mCustomScrollbar({
+                                scrollInertia: 8,
+                                documentTouchScroll: false
+                            });
+                        } else {
+                            $("#ajax-page").mCustomScrollbar('destroy');
+                        }
+                    }
+
+                    jQuery(document).ready(function($){
+
+                        // Ajax Loaded Page Scroll
+                        customAjaxScroll();
+
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+
+                    });
+
+                    jQuery(window).on('resize', function() {
+                        customAjaxScroll();
+                    });
+                </script>
             </div>
         </div>
     </div>
