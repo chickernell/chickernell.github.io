@@ -1445,6 +1445,7 @@ ul.social-links li:last-child a {
   position: absolute;
   bottom: 10px;
   left: 20px;
+  font-size: 1rem;
 }
 
 .portfolio-grid figure a div i {
