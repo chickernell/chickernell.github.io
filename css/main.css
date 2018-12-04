@@ -1349,7 +1349,7 @@ ul.social-links li:last-child a {
 7.4. Portfolio subpage
 ======================================= */
 .center {
-  display: blcok;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
