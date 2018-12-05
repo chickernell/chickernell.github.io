@@ -610,7 +610,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .site-title {
-  color: #fff;
+  color: #222;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2em;
