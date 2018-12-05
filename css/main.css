@@ -617,7 +617,7 @@ textarea.form-control, textarea.form-control:focus {
   margin: 0;
 }
 
-h1.site-title {
+.site-title.special {
   color: #222;
 }
 
