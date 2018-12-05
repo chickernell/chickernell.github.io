@@ -991,6 +991,7 @@ ul.social-links li:last-child a {
 }
 .home-page-description {
   color: #9161e0;
+  opacity: 1;
   font-size: 21px;
   font-weight: 300;
   font-family: 'Oxygen', Helvetica, sans-serif;
