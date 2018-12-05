@@ -1009,6 +1009,9 @@ ul.social-links li:last-child a {
 /* =======================================
 7.2. About Me subpage
 ======================================= */
+h3.hello {
+  color: #9161e0;
+}
 .my-photo-block {
   position: relative;
 }
